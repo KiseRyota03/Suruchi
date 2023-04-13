@@ -1,0 +1,105 @@
+:root {
+    --whilte-color:#fff;
+    --black--color:#000;
+    --text-color:#333;
+}
+
+*{
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+    font-size:1.6rem;
+    font-family:'Poppins';
+    box-sizing: border-box;
+}
+.text-font {
+    font-size:0.5rem;
+    font-weight: 400;
+    color:#505050;
+}
+.footer-font {
+    color:#A9A9A9;
+    font-size: 14px;
+    line-height: 1rem;
+}
+.footer-header {
+    color:white;
+    font-size: 18px;
+    margin-bottom:26px;
+    font-weight: 600;
+}
+
+.header_font {
+    color:white;
+    font-size: 0.6rem;
+}
+
+.grid {
+    width:1340px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid_column-2 {
+    padding-left: 6px;
+    padding-right:6px;
+    width:16.667% ;
+}
+.grid_column-10 {
+    padding-left: 6px;
+    padding-right:6px;
+    width:83.3334%;
+}
+.grid_column-2-4 {
+    padding-left: 12px;
+    padding-right: 12px;
+    width:20%;
+}
+.grid_row {
+    display: flex;
+    flex-wrap:wrap;
+    margin-left: -6px;
+    margin-right: -6px;
+}
+
+.title-font {
+    color: #ee2761;
+    font-size: 0.5rem;
+    font-weight: 500;
+}
+
+.white-color {
+    color:white;
+}
+
+.grid_column-2-5 {
+    padding-left: 12px;
+    padding-right: 12px;
+    width:25%;
+}
+
+hr {
+    color: white;
+    
+}
+
+.grid_column-divide {
+    margin-left:6px;
+    padding-right: 12px;
+    width: 25%;
+    padding-top: 35%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.grid_column-2-6 {
+    padding-left: 12px;
+    padding-right: 12px;
+    width:40%;
+}
+.grid_column-2-3 {
+    width: 13%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
