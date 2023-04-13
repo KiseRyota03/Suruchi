@@ -4,6 +4,9 @@
     --text-color:#333;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 *{
     box-sizing: inherit;
 }

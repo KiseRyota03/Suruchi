@@ -25,6 +25,30 @@
     position: relative;
 }
 
+
+.header_nav_bar-item:hover {
+    cursor: pointer;
+    color: #333;
+    transition: 0.2s ease-out;
+}
+
+.header_search_logo:hover {
+    cursor: pointer;
+    color: #ee2761;
+    transition: 0.3s ease-in-out;
+}
+
+.header_with_search-btn:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    transition: 0.2s ease-out;
+}
+
+.header-search-access-item-click:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    transition: 0.2s ease-out;
+}
 .seperate::after {
     content:"";
     display: block;
@@ -160,8 +184,15 @@
 .header_list_item_right {
     margin-right: 30px;
     margin-bottom: 30px;
-    
 }
+.header_list_item li:hover,
+.header_list_item_right:hover {
+    cursor: pointer;
+    color: #ee2761;
+    transition: 0.2s ease-out;
+}
+
+
 .header_list_item_icon {
     margin-right:5px;
 }
@@ -181,10 +212,9 @@
 
 
 .header_list_cover {
-    background: url('/assests/cover.jpg') center;
+    background-position: center;
     background-size: 100% 750px;
     position: relative;
-    z-index: -1;
 }
 
 .cover_wrap {
@@ -219,6 +249,13 @@
     margin-top: 30px;
     font-size: 0.6rem;
     padding: 6px 16px;
+    z-index: 1;
+}
+
+.cover_des-btn:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    transition: 0.2 ease-out;
 }
 .cover_des-btn-icon {
     font-size: 10px;
@@ -238,7 +275,8 @@
 .container_2-item {
     font-size: 0.6rem;   
     display: flex; 
-  justify-content: center;
+    justify-content: center;
+    padding-left: 0;
 
 }
 
@@ -248,13 +286,25 @@
   padding: 0px 20px;
 
 }
+
 .container_2-item_active {
     color: #ee2761;
+
+}
+.container_2-item_active:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    transition: 0.2 ease-out;
 }
 
-.container_2-item_unactive {
+.container_2-item_unactive:hover {
     color: #333;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: 0.2 ease-out;
+    
 }
+
 
 .container_2-line {
     max-width:200px;
@@ -262,6 +312,7 @@
     width: auto;
     height: auto;
 }
+
 
 /* test */
 
@@ -279,12 +330,12 @@
     background-color:white;
     margin: 15px 0px ;
     position: relative;
-    cursor: pointer;
 }
-.home-product-item:hover {
+
+/* .home-product-item {
     box-shadow: 0 2px 3px 1px rgba(0,0,0,0.1);
     top:-2px;
-}
+} */
 
 .home-product-item_type {
     font-size: 0.6rem;
@@ -327,6 +378,12 @@
 .home-product-icon_click_cart {
     font-size: 0.5rem;
     padding-top: 13px;
+}
+
+.home-product-icon_click:hover {
+    background-color: #ee2761;
+    transition: 0.2s ease-in-out;
+    color:white;
 }
 
 .home-product-icon_click_cart i {
@@ -425,7 +482,7 @@
 /* discount */
 
 .slider_discount{
-    background: url('/assests/men2.png');
+    background: url('./assests/men2.png');
     width: 100%;
     height: 500px;
     background-size: 100%;
@@ -499,7 +556,12 @@
     text-decoration: underline;
     color: #333;
     font-size: 0.6rem;
+}
 
+.web_offer-click:hover {
+    cursor: pointer;
+    transition: 0.2s ease-out;
+    opacity: 0.7;
 }
 
 .web_offer-wrap {
@@ -534,6 +596,12 @@
     border: 1px solid #d9d5d5;
     border-radius: 50%;
 
+}
+
+.review_box-img:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    transition: 0.2s ease-out;
 }
 .review_box-name {
     font-weight: 600;
@@ -570,7 +638,7 @@
 }
 
 .slider_boot{
-    background: url('/assests/boot1.JPG') no-repeat bottom;
+    background: url('./assests/boot1.JPG') no-repeat bottom;
     width: 100%;
     height: 300px;
     background-size: 100%;
@@ -589,7 +657,12 @@
     padding: 5px 16px;
     margin-top: 10px;
 }
-
+.home-product-icon_click-edit:hover {
+    cursor: pointer;
+    background-color: #ee2761;
+    transition: 0.2s ease-in-out;
+    color:white;
+}
 .home-product-item_type-edit {
     font-size: 0.4rem;
     font-weight: 500;
@@ -630,9 +703,17 @@
     display: flex;
     align-items: center;
 }
+
 .footer-item_link:hover {
-    color:var(--main-color);
+    cursor: pointer;
+    opacity: 0.7;
 }
+
+.grid_column-divide:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
 .footer-item_link-icon {
     font-size:1.8rem;
     margin: -1px 6px 0 0;
@@ -695,7 +776,7 @@
 }
 .footer_heading::after { 
     content: '';
-    width: 20%;
+    width: 60px;
     height: 1px;
     background: white;
     display: block;
@@ -704,6 +785,11 @@
 
 .footer-list-icon i {
     padding-right: 5px;
+}
+
+.footer-list-icon i:hover {
+    cursor: pointer;
+    opacity: 0.7;
 }
 
 .footer_search {
@@ -725,6 +811,10 @@
     padding: 6px 16px;
     width: 100%;
     font-weight: 600;
+}
+
+.footer-btn:hover {
+    opacity: 0.7;
 }
 
 .footer_lic::before { 
@@ -817,7 +907,11 @@
     color:#666;
 
 }
-
+.mod-click:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    transition: 0.2s ease-out;
+}
 .mod-click-icon {
     color:#ee2761;
     margin-left: 10px;
@@ -836,3 +930,18 @@
     top: -5px;
     padding: 2px 4px;
 } 
+
+.back-top {
+    width: 50px;
+    height: 50px;
+    background: #ee2761;
+    color:white;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    bottom: 50px;
+    right: 20px;
+    z-index: 2;
+    position: fixed;
+    cursor: pointer;
+}
