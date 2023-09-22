@@ -7,6 +7,7 @@
     display: flex;
     justify-content: space-between;
     padding: 10px 0px;
+    font-weight: 600;
   }
 
   .header_nav_bar-list {
@@ -28,7 +29,7 @@
     transition: 0.2s ease-out;
   }
 
-  .header_search_logo:hover {
+  .header_search_bars_mobile:hover {
     cursor: pointer;
     color: #ee2761;
     transition: 0.3s ease-in-out;
@@ -103,6 +104,7 @@
   .header_search_logo {
     margin-right: 200px;
     font-weight: 500;
+    text-align: center;
   }
   .header_search_logo img {
     width: 50px;
@@ -687,7 +689,9 @@
     display: flex;
     align-items: center;
   }
-
+  .footer_heading i {
+    display: none;
+  }
   .footer-item_link:hover {
     cursor: pointer;
     opacity: 0.7;
@@ -964,6 +968,7 @@
   }
   .header_search_logo {
     margin-right: 0;
+    width: 100%;
   }
   .header_search_access-item {
     margin-left: 0;
@@ -1184,5 +1189,8 @@
   left: 22px;
   top: -5px;
   padding: 2px 4px;
+}
+.footer_heading i {
+  display: inline-flex;
 }
 }
